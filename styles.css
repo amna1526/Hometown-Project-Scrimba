@@ -1,0 +1,69 @@
+.Font {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    margin: 0;
+    text-align: center;
+    color: rgb(41, 20, 20)
+}
+
+.hero {
+    color: beige;
+    text-shadow: 0 0 3px;
+    padding: 50px;
+    background-size: cover;
+    background-image: url("images/BM.jpeg");
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 2%;
+    border: 2px solid #443822;
+}
+
+.places {
+    margin: 50px auto;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+}
+
+.avatar {
+    border-radius: 5%;
+    border: 1px solid papayawhip;
+    width: 40%;
+}
+
+.card {
+    padding: 10px;
+    background-color: rgb(119, 167, 157);
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid rgb(133, 80, 80);
+    border-bottom: 5px solid rgb(133, 80, 80);
+    margin: 20px auto;
+}
+#name {
+    font-size: 1rem;
+}
+#guide {
+    font-size: 1.5rem;
+}
